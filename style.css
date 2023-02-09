@@ -1,0 +1,202 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 10px 0 0;
+}
+.header-section{
+    display: flex;
+    align-items: flex-end;
+    padding: 0 110px;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.title-border{
+    width: 5px;
+    height: 127px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    margin-right: 13px;
+}
+.mission-title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    line-height: 80px;
+    color: #333333;
+    margin: 0;
+}
+.orange-color{
+    color: #FFAD5A;
+}
+.left-text{
+    width: 50%;
+}
+.right-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.right-img img{
+    width: 426px;
+}
+p{
+    font-size: 18px;
+    color: #3E3E3E;
+}
+.about-person{
+    margin: 15px 0 19px;
+}
+.btn{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 37.5px;
+    color: white;
+    text-decoration: none;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+}
+.scroll-text{
+    margin-top: 33px;
+}
+
+
+/* Mission in 2022 Section */
+.mission-section{
+    margin: 5rem 0;
+    text-align: center;
+    padding: 0 110px;
+}
+.mission-heading{
+    font-size: 48px;
+    font-weight: 700;
+}
+.targets{
+    display: flex;
+    gap: 24px;
+}
+.target img{
+    width: 141px
+}
+.target{
+    text-align: left;
+    border-radius: 26px;
+    padding: 40px 24px;
+}
+#mission{
+    background-color: rgba(79, 157, 166, 0.1);;
+}
+#vision{
+    background-color: rgba(255, 89, 89, 0.1);
+}
+#goals{
+    background-color: #FFF4D6;
+}
+
+/* develop section */
+.develop-section{
+    margin-bottom: 5rem;
+    background-image: url(images/shapes/shape-2.png);
+    background-repeat: no-repeat;
+    background-size: 17%;
+    background-position: left center;
+}
+.develop{
+    padding: 0 110px;
+    display: flex;
+    align-items: center;
+}
+.develop h1{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 17px;
+    color: #333333;
+}
+.develop img{
+    width: 400px;
+    margin-right: 72px;
+}
+
+/* community section */
+.community-section{
+    margin-bottom: 4rem;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 14%;
+    background-position: right bottom;
+    padding-bottom: 4rem;
+}
+.community{
+    padding: 0 110px;
+    display: flex;
+    align-items: center;
+}
+.community h1{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 17px;
+    color: #333333;
+}
+.community img{
+    width: 400px;
+    margin-left: 72px;
+}
+
+/* Build App Section */
+.build-app{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.app{
+    display: flex;
+    padding: 0 110px;
+}
+.app img{
+    width: 229px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: right 270px;
+}
+.app-img{
+    width: 50%;
+    padding: 1rem 0;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 18%;
+    background-position-x: 180px;
+}
+.app-text{
+    width: 50%;
+    text-align: left;
+}
+.app-text h1{
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+/* Footer */
+footer{
+    padding: 39px 0 0;
+    text-align: center;
+    height: 177px;
+    background-color: #0B0D17;
+}
+.footer-title{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+.footer-color{
+    color: #FF5959;
+}
+small{
+    color: #D9DBE1;;
+}
