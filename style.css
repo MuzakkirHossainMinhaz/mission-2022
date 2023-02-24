@@ -3,56 +3,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 10px 3rem 0;
+    padding: 10px 0 0;
 }
-.header-section{
+
+.header-section {
     display: flex;
     align-items: flex-end;
     padding: 0 110px;
 }
-.title{
+
+.title {
     display: flex;
     align-items: center;
 }
-.title-border{
+
+.title-border {
     width: 5px;
     height: 127px;
     background-color: #FF5959;
     border-radius: 5px;
     margin-right: 13px;
 }
-.mission-title{
+
+.mission-title {
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
     line-height: 80px;
     color: #333333;
     margin: 0;
 }
-.orange-color{
+
+.orange-color {
     color: #FFAD5A;
 }
-.left-text{
+
+.left-text {
     width: 50%;
 }
-.right-img{
+
+.right-img {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-.right-img img{
+
+.right-img img {
     width: 426px;
 }
-p{
+
+p {
     font-size: 18px;
     color: #3E3E3E;
 }
-.about-person{
+
+.about-person {
     margin: 15px 0 19px;
 }
-.btn{
+
+.btn {
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
@@ -63,69 +74,85 @@ p{
     border: none;
     border-radius: 5px;
 }
-.scroll-text{
+
+.scroll-text {
     margin-top: 33px;
 }
 
 
 /* Mission in 2022 Section */
-.mission-section{
+.mission-section {
     margin: 5rem 0;
     text-align: center;
     padding: 0 110px;
 }
-.mission-heading{
+
+.mission-heading {
     font-size: 48px;
     font-weight: 700;
 }
-.targets{
+
+.targets {
     display: flex;
     gap: 24px;
 }
-.target img{
+
+.target img {
     width: 141px
 }
-.target{
+
+.target {
     text-align: left;
     border-radius: 26px;
     padding: 40px 24px;
 }
-#mission{
-    background-color: rgba(79, 157, 166, 0.1);;
+
+#mission {
+    background-color: rgba(79, 157, 166, 0.1);
+    ;
 }
-#vision{
+
+#vision {
     background-color: rgba(255, 89, 89, 0.1);
 }
-#goals{
+
+#goals {
     background-color: #FFF4D6;
 }
 
 /* develop section */
-.develop-section{
+.develop-section {
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 5rem;
     background-image: url(images/shapes/shape-2.png);
     background-repeat: no-repeat;
     background-size: 17%;
     background-position: left center;
 }
-.develop{
+
+.develop {
     padding: 0 110px;
     display: flex;
     align-items: center;
 }
-.develop h1{
+
+.develop h1 {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 17px;
     color: #333333;
 }
-.develop img{
+
+.develop img {
     width: 400px;
     margin-right: 72px;
 }
 
 /* community section */
-.community-section{
+.community-section {
+    margin-left: 3rem;
+    margin-right: 3rem;
     margin-bottom: 4rem;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
@@ -133,39 +160,45 @@ p{
     background-position: right bottom;
     padding-bottom: 4rem;
 }
-.community{
+
+.community {
     padding: 0 110px;
     display: flex;
     align-items: center;
 }
-.community h1{
+
+.community h1 {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 17px;
     color: #333333;
 }
-.community img{
+
+.community img {
     width: 400px;
     margin-left: 72px;
 }
 
 /* Build App Section */
-.build-app{
+.build-app {
     margin-bottom: 5rem;
     text-align: center;
 }
-.app{
+
+.app {
     display: flex;
     padding: 0 110px;
 }
-.app img{
+
+.app img {
     width: 229px;
     background-image: url(images/shapes/shape-3.png);
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: right 270px;
 }
-.app-img{
+
+.app-img {
     width: 50%;
     padding: 1rem 0;
     background-image: url(images/shapes/shape-3.png);
@@ -173,30 +206,36 @@ p{
     background-size: 18%;
     background-position-x: 180px;
 }
-.app-text{
+
+.app-text {
     width: 50%;
     text-align: left;
 }
-.app-text h1{
+
+.app-text h1 {
     font-size: 36px;
     margin-top: 0;
     margin-bottom: 17px;
 }
 
 /* Footer */
-footer{
+footer {
     padding: 39px 0 0;
     text-align: center;
     height: 177px;
     background-color: #0B0D17;
 }
-.footer-title{
+
+.footer-title {
     color: white;
     font-family: 'Lobster', cursive;
 }
-.footer-color{
+
+.footer-color {
     color: #FF5959;
 }
-small{
-    color: #D9DBE1;;
+
+small {
+    color: #D9DBE1;
+    ;
 }
