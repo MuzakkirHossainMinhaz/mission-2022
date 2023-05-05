@@ -1,6 +1,6 @@
 # mission-2022
 
-This repository contains a simple landing page design implemented using HTML and CSS only. The design was originally created in Figma and has been converted into a fully functional web page.
+This repository contains a simple landing page design implemented using HTML and CSS only. The design was originally created in Figma and has been converted into a web page.
 
 ### Getting Started
 To view the landing page, simply open the <b>`index.html`</b> file in your web browser.
