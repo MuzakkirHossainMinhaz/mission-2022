@@ -8,7 +8,7 @@ To view the landing page, simply open the <b>`index.html`</b> file in your web b
 ## Preview
 <img src="https://user-images.githubusercontent.com/96804371/236389266-c145f8e2-6fa4-46e2-b5a1-fa32a92eab78.png" alt="Preview of Landing Page Design" width="600px">
 
-### Features
+## Features
 * Simple and clean design
 * Implemented using HTML and CSS only
 
